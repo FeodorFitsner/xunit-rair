@@ -1,0 +1,11 @@
+version: 1.0.{build}
+configuration: Release
+platform: Any CPU
+before_build:
+- cmd: nuget restore
+build:
+  project: Rair.Utilities.Windows.sln
+  verbosity: minimal
+test:
+  assemblies:
+    - '**\*.tests.dll'

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Rair.Utilities.Windows</id>
+    <version>1.0.0.0</version>
+    <title>$title$</title>
+    <authors>blairacuda</authors>
+    <owners>blairacuda</owners>
+    <projectUrl>https://bitbucket.org/rairsoft/rair.utilities.windows</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Extends Rair.Utilities.Core and adds Windows specific extension and helper methods.</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+  </metadata>
+</package>
