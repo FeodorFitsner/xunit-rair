@@ -14,7 +14,7 @@ namespace Rair.Utilities.Windows.Tests
             var sub = dir.GetSubFolder("Tester");
             Assert.NotNull(sub);
         }
-/*
+
         [Fact()]
         public void GetFileTest()
         {
@@ -23,6 +23,7 @@ namespace Rair.Utilities.Windows.Tests
             Assert.NotNull(file);
         }
 
+/*        
         [Fact()]
         public void RemoveTest()
         {
