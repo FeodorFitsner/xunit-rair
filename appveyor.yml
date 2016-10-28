@@ -6,7 +6,7 @@ before_build:
 build:
   project: Rair.Utilities.Windows.sln
   verbosity: minimal
-  
+
 test:
   assemblies:
     - '**\*.tests.dll'
