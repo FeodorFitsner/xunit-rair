@@ -1,4 +1,13 @@
 version: 1.0.{build}
+
+environment:
+  matrix:
+  - v: 1
+  - v: 2
+  - v: 3
+  - v: 4
+  - v: 5
+
 configuration: Release
 platform: Any CPU
 before_build:
