@@ -1,3 +1,4 @@
+
 version: 1.0.{build}
 
 #environment:
@@ -15,6 +16,7 @@ configuration: Release
 platform: Any CPU
 
 before_build:
+- where nuget
 - cmd: nuget restore
 
 build:
