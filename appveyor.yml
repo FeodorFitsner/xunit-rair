@@ -16,7 +16,7 @@ configuration: Release
 platform: Any CPU
 
 before_build:
-- msbuild Rair.Utilities.Windows.sln /t:restore
+- msbuild /t:restore
 
 build:
   project: Rair.Utilities.Windows.sln
