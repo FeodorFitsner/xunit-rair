@@ -16,9 +16,7 @@ configuration: Release
 platform: Any CPU
 
 before_build:
-- nuget install nuget.commandline -source https://dotnet.myget.org/F/nuget-build -prerelease -excludeversion
-- set PATH=%appveyor_build_folder%\NuGet.CommandLine\tools;%PATH%
-- cmd: nuget restore
+- msbuild Rair.Utilities.Windows.sln /t:restore
 
 build:
   project: Rair.Utilities.Windows.sln
